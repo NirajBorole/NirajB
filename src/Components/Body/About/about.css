@@ -1,0 +1,73 @@
+.hero {
+    width: 75%;
+    margin: auto;
+    height: calc(100vh - 15rem);
+    border: 5px solid blue;
+    display: grid;
+    place-items: center;
+    padding: 1.4rem;
+    position: relative;
+}
+
+.hello {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15rem;
+    font-weight: 800;
+    translate: -110px -150px;
+    color: #997897;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hero::after {
+    content: "hero";
+    border: 2px solid red;
+
+    <div className='hero-sub'>
+        I &#10084; frontend.
+    </div> 
+
+}
+*/
+
+/* .hero-text {
+    grid-template-columns: repeat(2, 220px);
+} */
+
+/* .hero-text {
+    height: calc(100vh - 3rem);
+    top: 0;
+    left: 0;
+    color: rgb(255, 158, 32);
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

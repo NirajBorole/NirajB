@@ -1,0 +1,13 @@
+footer {
+    background-color: antiquewhite;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 53, 86);
+    font-weight: 700;
+}

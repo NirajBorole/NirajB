@@ -1,0 +1,17 @@
+.ed {
+    width: 75%;
+    margin: auto;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 520px) {
+    .ed {
+        width: 23ch;
+    }
+
+    .education {}
+}

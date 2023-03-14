@@ -1,0 +1,35 @@
+.skillset {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 25px;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.skill {
+    font-weight: 700;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .skillset {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .skillset {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+    }
+}

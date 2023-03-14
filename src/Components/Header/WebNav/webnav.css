@@ -1,0 +1,24 @@
+.webnav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.wb-nav-opt {
+    font-size: medium;
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+.wb-nav-opt a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.wb-nav-opt a:hover {
+    color: blueviolet;
+}
+
+.wb-nav-opt:last-child {
+    margin-right: 0px;
+}

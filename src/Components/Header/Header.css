@@ -1,0 +1,46 @@
+header {
+    width: 100% !important;
+    background-color: #41314c;
+}
+
+.header-style {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px;
+    position: relative;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.web-nav {
+    display: flex;
+    cursor: pointer;
+}
+
+.mob-nav {
+    display: none;
+    cursor: pointer;
+}
+
+.logo-img {
+    font-size: x-large;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 720px) {
+    .web-nav {
+        display: none;
+    }
+
+    .mob-nav {
+        display: flex;
+        border: 1px solid red;
+        cursor: pointer;
+    }
+}

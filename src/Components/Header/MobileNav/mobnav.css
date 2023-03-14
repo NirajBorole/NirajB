@@ -1,0 +1,38 @@
+.mobnav {
+    background-color: aliceblue;
+    right: 0px;
+    position: absolute;
+    padding: 18px 12px;
+    top: -6px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.close-icon {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    border: 1px solid red;
+}
+
+.mb-nav-opt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mb-nav-opt {
+    font-size: medium;
+    padding: 16px;
+}
+
+.mb-nav-opt a {
+    text-decoration: none;
+    color: #111;
+}
+
+.mb-nav-opt a:hover {
+    color: blueviolet;
+}
